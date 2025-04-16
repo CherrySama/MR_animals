@@ -1,0 +1,2 @@
+E:\myObj\MR_animals\AR_animals\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
+E:\myObj\MR_animals\AR_animals\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\CMakeLists.txt

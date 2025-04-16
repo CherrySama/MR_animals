@@ -1,0 +1,5 @@
+E:/myObj/MR_animals/AR_animals/.utmp/RelWithDebInfo/543f2x6d/arm64-v8a/CMakeFiles/edit_cache.dir
+E:/myObj/MR_animals/AR_animals/.utmp/RelWithDebInfo/543f2x6d/arm64-v8a/CMakeFiles/rebuild_cache.dir
+E:/myObj/MR_animals/AR_animals/.utmp/RelWithDebInfo/543f2x6d/arm64-v8a/GameActivity/CMakeFiles/game.dir
+E:/myObj/MR_animals/AR_animals/.utmp/RelWithDebInfo/543f2x6d/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+E:/myObj/MR_animals/AR_animals/.utmp/RelWithDebInfo/543f2x6d/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir
