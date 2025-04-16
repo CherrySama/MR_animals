@@ -1,0 +1,35 @@
+# Unity 基础忽略规则
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+[Bb]uild/
+[Bb]uilds/
+/[Pp]ackages/
+/[Uu]ser[Ss]ettings/
+
+# 工程文件
+*.csproj
+*.sln
+*.suo
+*.userprefs
+*.unityproj
+*.pidb
+*.booproj
+
+# 资源相关
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+/[Aa]ssets/[Ss]treamingAssets/*.meta
+*.asset.meta
+*.unitypackage
+
+# 日志和崩溃报告
+*.log
+*.pid
+*.memoryzip
+crashlytics-build.properties
+
+# 特定插件和大文件（按需添加）
+# *.dylib
+# *.a
+# *.bundle
