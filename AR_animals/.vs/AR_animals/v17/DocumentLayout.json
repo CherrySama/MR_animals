@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "E:\\myObj\\MR_animals\\AR_animals\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\myObj\\MR_animals\\AR_animals\\Library\\PackageCache\\com.meta.xr.sdk.core@6ae573ca9b72\\Scripts\\OVRPassthroughLayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.meta.xr.sdk.core@6ae573ca9b72\\Scripts\\OVRPassthroughLayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\myObj\\MR_animals\\AR_animals\\Library\\PackageCache\\com.meta.xr.sdk.interaction@18ea1f2045ab\\Runtime\\Scripts\\Interaction\\Models\\Poke\\PokeInteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.meta.xr.sdk.interaction@18ea1f2045ab\\Runtime\\Scripts\\Interaction\\Models\\Poke\\PokeInteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\myObj\\MR_animals\\AR_animals\\Library\\PackageCache\\com.meta.xr.sdk.core@6ae573ca9b72\\Scripts\\OVRManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.meta.xr.sdk.core@6ae573ca9b72\\Scripts\\OVRManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{02245CDA-763D-9538-EC1F-FD8FF6110DBB}|Assembly-CSharp.csproj|E:\\myObj\\MR_animals\\AR_animals\\assets\\scripts\\dogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02245CDA-763D-9538-EC1F-FD8FF6110DBB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\myObj\\MR_animals\\AR_animals\\Library\\PackageCache\\com.unity.render-pipelines.universal@39c80789bb81\\Shaders\\Lit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.render-pipelines.universal@39c80789bb81\\Shaders\\Lit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\myObj\\MR_animals\\AR_animals\\Library\\PackageCache\\com.meta.xr.sdk.core@6ae573ca9b72\\Shaders\\MetaLit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.meta.xr.sdk.core@6ae573ca9b72\\Shaders\\MetaLit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{02245CDA-763D-9538-EC1F-FD8FF6110DBB}|Assembly-CSharp.csproj|E:\\myObj\\MR_animals\\AR_animals\\assets\\scripts\\ballcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02245CDA-763D-9538-EC1F-FD8FF6110DBB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ballcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,53 +30,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "OVRManager.cs",
-              "DocumentMoniker": "E:\\myObj\\MR_animals\\AR_animals\\Library\\PackageCache\\com.meta.xr.sdk.core@6ae573ca9b72\\Scripts\\OVRManager.cs",
-              "RelativeDocumentMoniker": "Library\\PackageCache\\com.meta.xr.sdk.core@6ae573ca9b72\\Scripts\\OVRManager.cs",
-              "ToolTip": "E:\\myObj\\MR_animals\\AR_animals\\Library\\PackageCache\\com.meta.xr.sdk.core@6ae573ca9b72\\Scripts\\OVRManager.cs",
-              "RelativeToolTip": "Library\\PackageCache\\com.meta.xr.sdk.core@6ae573ca9b72\\Scripts\\OVRManager.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "PokeInteractable.cs",
+              "DocumentMoniker": "E:\\myObj\\MR_animals\\AR_animals\\Library\\PackageCache\\com.meta.xr.sdk.interaction@18ea1f2045ab\\Runtime\\Scripts\\Interaction\\Models\\Poke\\PokeInteractable.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.meta.xr.sdk.interaction@18ea1f2045ab\\Runtime\\Scripts\\Interaction\\Models\\Poke\\PokeInteractable.cs",
+              "ToolTip": "E:\\myObj\\MR_animals\\AR_animals\\Library\\PackageCache\\com.meta.xr.sdk.interaction@18ea1f2045ab\\Runtime\\Scripts\\Interaction\\Models\\Poke\\PokeInteractable.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.meta.xr.sdk.interaction@18ea1f2045ab\\Runtime\\Scripts\\Interaction\\Models\\Poke\\PokeInteractable.cs",
+              "ViewState": "AgIAAIcCAAAAAAAAAAAiwJ0CAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T16:31:46.564Z",
+              "WhenOpened": "2025-04-18T18:20:14.978Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "OVRPassthroughLayer.cs",
-              "DocumentMoniker": "E:\\myObj\\MR_animals\\AR_animals\\Library\\PackageCache\\com.meta.xr.sdk.core@6ae573ca9b72\\Scripts\\OVRPassthroughLayer.cs",
-              "RelativeDocumentMoniker": "Library\\PackageCache\\com.meta.xr.sdk.core@6ae573ca9b72\\Scripts\\OVRPassthroughLayer.cs",
-              "ToolTip": "E:\\myObj\\MR_animals\\AR_animals\\Library\\PackageCache\\com.meta.xr.sdk.core@6ae573ca9b72\\Scripts\\OVRPassthroughLayer.cs",
-              "RelativeToolTip": "Library\\PackageCache\\com.meta.xr.sdk.core@6ae573ca9b72\\Scripts\\OVRPassthroughLayer.cs",
-              "ViewState": "AgIAAP8FAAAAAAAAAAAAwAkGAAAZAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "DogController.cs",
+              "DocumentMoniker": "E:\\myObj\\MR_animals\\AR_animals\\Assets\\Scripts\\DogController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DogController.cs",
+              "ToolTip": "E:\\myObj\\MR_animals\\AR_animals\\Assets\\Scripts\\DogController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DogController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T16:06:09.125Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-18T16:16:16.093Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Lit.shader",
-              "DocumentMoniker": "E:\\myObj\\MR_animals\\AR_animals\\Library\\PackageCache\\com.unity.render-pipelines.universal@39c80789bb81\\Shaders\\Lit.shader",
-              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal@39c80789bb81\\Shaders\\Lit.shader",
-              "ToolTip": "E:\\myObj\\MR_animals\\AR_animals\\Library\\PackageCache\\com.unity.render-pipelines.universal@39c80789bb81\\Shaders\\Lit.shader",
-              "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal@39c80789bb81\\Shaders\\Lit.shader",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2025-04-17T14:34:54.918Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MetaLit.shader",
-              "DocumentMoniker": "E:\\myObj\\MR_animals\\AR_animals\\Library\\PackageCache\\com.meta.xr.sdk.core@6ae573ca9b72\\Shaders\\MetaLit.shader",
-              "RelativeDocumentMoniker": "Library\\PackageCache\\com.meta.xr.sdk.core@6ae573ca9b72\\Shaders\\MetaLit.shader",
-              "ToolTip": "E:\\myObj\\MR_animals\\AR_animals\\Library\\PackageCache\\com.meta.xr.sdk.core@6ae573ca9b72\\Shaders\\MetaLit.shader",
-              "RelativeToolTip": "Library\\PackageCache\\com.meta.xr.sdk.core@6ae573ca9b72\\Shaders\\MetaLit.shader",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2025-04-16T17:33:32.078Z"
+              "Title": "BallController.cs",
+              "DocumentMoniker": "E:\\myObj\\MR_animals\\AR_animals\\Assets\\Scripts\\BallController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BallController.cs",
+              "ToolTip": "E:\\myObj\\MR_animals\\AR_animals\\Assets\\Scripts\\BallController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BallController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T16:09:50.679Z"
             }
           ]
         }
