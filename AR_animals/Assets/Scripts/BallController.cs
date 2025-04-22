@@ -7,6 +7,7 @@ public class BallController : MonoBehaviour
     public string groundTag = "Ground"; // 可以在Inspector中设置地面的标签
     public float collisionCooldown = 0.5f; // 碰撞冷却时间，防止多次触发
 
+    public float velocityDamping = 0.7f; // 落地后速度衰减系数，1为不衰减，0为完全停止
     private bool hasLanded = false;
     private bool isInCooldown = false; // 是否在冷却期
     private Rigidbody rb;
@@ -28,6 +29,13 @@ public class BallController : MonoBehaviour
         if (collision.gameObject.CompareTag(groundTag) && !hasLanded && !isInCooldown)
         {
             hasLanded = true;
+
+            // 减小球的速度
+            if (rb != null)
+            {
+                rb.linearVelocity *= velocityDamping;
+                rb.angularVelocity *= velocityDamping;
+            }
 
             // 通知小狗开始捡球，传入小球的位置
             DogController dogController = dog.GetComponent<DogController>();
@@ -54,11 +62,10 @@ public class BallController : MonoBehaviour
     {
         hasLanded = false;
 
-        // 可选：重置物理状态(保留注释以备后用)
-        //if (rb != null)
-        //{
-        //    rb.velocity = Vector3.zero;
-        //    rb.angularVelocity = Vector3.zero;
-        //}
+        if (rb != null)
+        {
+            rb.linearVelocity = Vector3.zero;
+            rb.angularVelocity = Vector3.zero;
+        }
     }
 }

@@ -35,6 +35,10 @@ public class DogController : MonoBehaviour
     public float minWalkTime = 2.0f; // 最短漫步时间
     public float maxWalkTime = 6.0f; // 最长漫步时间
 
+    [Header("追球设置")]
+    public float ballTrackingUpdateRate = 0.2f; // 追踪球位置的更新频率(秒)
+    private Coroutine ballTrackingCoroutine; // 追踪球位置的协程
+
     // 动画参数
     private readonly string isRunningParam = "isRunning";
     private readonly string isWalkingParam = "isWalking";
@@ -258,14 +262,33 @@ public class DogController : MonoBehaviour
         if (!isFetching && !isInIdleCooldown)
         {
             StopAllCoroutines();
+
+            // 开始追踪球的位置
+            ballTrackingCoroutine = StartCoroutine(TrackBallPosition());
+
+            // 设置状态
             isFetching = true;
             isCalled = false;
             isReturningToInitial = false;
             isWalking = false;
             isIdle = false;
             targetPosition = ballPosition;
+
             SetWalking(false);
             SetRunning(true);
+        }
+    }
+
+    // 追踪球位置的协程
+    private IEnumerator TrackBallPosition()
+    {
+        while (isFetching && !hasBall && ball != null && ball.activeSelf)
+        {
+            // 更新目标为球的当前位置
+            targetPosition = ball.transform.position;
+
+            // 等待一段时间再更新
+            yield return new WaitForSeconds(ballTrackingUpdateRate);
         }
     }
 
@@ -299,6 +322,12 @@ public class DogController : MonoBehaviour
 
     void PickUpBall()
     {
+        // 停止追踪球位置
+        if (ballTrackingCoroutine != null)
+        {
+            StopCoroutine(ballTrackingCoroutine);
+        }
+
         ball.SetActive(false);
         hasBall = true;
         targetPosition = player.transform.position;

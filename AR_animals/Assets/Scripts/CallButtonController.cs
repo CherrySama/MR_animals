@@ -8,17 +8,6 @@ public class CallButtonController : MonoBehaviour
 
     void Start()
     {
-        // 获取按钮组件并添加点击事件
-        Button button = GetComponent<Button>();
-        if (button != null)
-        {
-            button.onClick.AddListener(CallDog);
-        }
-        else
-        {
-            Debug.LogError("请将此脚本附加到带有Button组件的GameObject上！");
-        }
-
         // 检查是否已设置DogController
         if (dogController == null)
         {
