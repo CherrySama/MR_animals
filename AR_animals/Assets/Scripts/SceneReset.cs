@@ -34,13 +34,6 @@ public class SceneReset : MonoBehaviour
         {
             fadeRenderer.material = new Material(fadeMaterial);
         }
-        else
-        {
-            // 创建一个新的透明材质
-            Material mat = new Material(Shader.Find("Transparent/Diffuse"));
-            mat.color = Color.black;
-            fadeRenderer.material = mat;
-        }
 
         // 禁用碰撞体
         Collider collider = fadeObject.GetComponent<Collider>();
@@ -128,8 +121,6 @@ public class SceneReset : MonoBehaviour
         // 等待一帧以确保场景已初始化
         yield return null;
 
-        // 重新获取相机并重新设置淡入淡出对象
-        // 因为场景重载后，之前的引用已失效
         InitializeFadeObject();
         fadeObject.SetActive(true);
         SetFadeAlpha(1.0f);
@@ -144,12 +135,10 @@ public class SceneReset : MonoBehaviour
             yield return null;
         }
 
-        // 完成后隐藏淡入淡出对象
         SetFadeAlpha(0);
         fadeObject.SetActive(false);
     }
 
-    // 可以添加一个OnDestroy方法来清理资源
     private void OnDestroy()
     {
         if (fadeObject != null)

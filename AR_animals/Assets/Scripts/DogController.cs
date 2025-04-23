@@ -76,9 +76,7 @@ public class DogController : MonoBehaviour
         {
             audioSource = GetComponent<AudioSource>();
             if (audioSource == null && callingSound != null)
-            {
                 audioSource = gameObject.AddComponent<AudioSource>();
-            }
         }
 
         // 保存初始位置
@@ -90,9 +88,7 @@ public class DogController : MonoBehaviour
 
         // 如果启用随机漫步，开始随机行为
         if (enableRandomWalk)
-        {
             StartCoroutine(RandomBehavior());
-        }
     }
 
     void Update()
@@ -170,7 +166,6 @@ public class DogController : MonoBehaviour
         SetRunning(false); // 确保跑步动画关闭
     }
 
-    // 其余代码保持不变...
     private IEnumerator DelayedRandomBehavior()
     {
         yield return null;
@@ -253,7 +248,6 @@ public class DogController : MonoBehaviour
             isIdle = false;
             SetWalking(false);
             SetRunning(true);
-            Debug.Log("小狗被呼叫！");
         }
     }
 
@@ -324,9 +318,8 @@ public class DogController : MonoBehaviour
     {
         // 停止追踪球位置
         if (ballTrackingCoroutine != null)
-        {
             StopCoroutine(ballTrackingCoroutine);
-        }
+        
 
         ball.SetActive(false);
         hasBall = true;

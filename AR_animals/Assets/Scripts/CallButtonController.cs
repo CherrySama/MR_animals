@@ -21,7 +21,6 @@ public class CallButtonController : MonoBehaviour
         if (dogController != null)
         {
             dogController.CallDog();
-            Debug.Log("ÒÑºô½ÐÐ¡¹·");
         }
         else
         {

@@ -57,7 +57,6 @@ public class DogAudioController : MonoBehaviour
                 if (wasBackgroundPlaying)
                 {
                     backgroundBarkManager.StopPlayback();
-                    Debug.Log("ºô½Ð¿ªÊ¼£º±³¾°½ÐÉùÒÑÍ£Ö¹");
                 }
             }
         }
@@ -76,7 +75,6 @@ public class DogAudioController : MonoBehaviour
         {
             backgroundBarkManager.PreparePlaylist();
             backgroundBarkManager.StartPlayback();
-            Debug.Log("ºô½Ð½áÊø£º±³¾°½ÐÉùÒÑ»Ö¸´");
             wasBackgroundPlaying = false;
         }
     }
@@ -105,7 +103,6 @@ public class DogAudioController : MonoBehaviour
                 backgroundBarkManager.StartPlayback();
             }
             isMuted = false;
-            Debug.Log("±³¾°½ÐÉùÒÑ»Ö¸´");
         }
         else
         {
@@ -116,7 +113,6 @@ public class DogAudioController : MonoBehaviour
                 backgroundBarkManager.StopPlayback();
             }
             isMuted = true;
-            Debug.Log("±³¾°½ÐÉùÒÑ¾²Òô");
         }
     }
 }

@@ -38,7 +38,6 @@ public class AudioSequenceManager : MonoBehaviour
 
     void Awake()
     {
-        // 获取或添加AudioSource组件
         audioSource = GetComponent<AudioSource>();
         if (audioSource == null)
         {
@@ -96,20 +95,16 @@ public class AudioSequenceManager : MonoBehaviour
     public void StartPlayback()
     {
         if (playList.Count == 0)
-        {
             PreparePlaylist();
-        }
+        
 
         if (playList.Count == 0)
-        {
-            Debug.LogWarning("没有选择任何音频进行播放");
             return;
-        }
+        
 
         if (isPlaying)
-        {
             StopPlayback();
-        }
+        
 
         isPlaying = true;
         playRoutine = StartCoroutine(PlaySequence());
